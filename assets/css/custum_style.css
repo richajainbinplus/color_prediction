@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+  .no-padding{
+    padding:0px!important;
+}
+
+.header {
+    position: relative!important;
+}
+.fixed-top {
+    position: relative!important; 
+}
+.login-section{
+    padding: 20% 0px;
+}
+.header{
+    background:#1AA235;
+    font-weight:600;
+    padding: 15px 0!important;
+}
+.logo h4 {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.header .logo {
+    line-height: 0;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.fixed-footer .col-2 {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+}
+.fixed-footer .col-2 i {
+    font-size: 24px;
+    display: block;
+    margin: 3px 0px;
+}
+.center-section{
+    padding:0px;
+}
+ .fixed-footer {
+    background: #1AA235;
+    width: 100%%;
+    z-index: 99999;
+     width: 45.33%;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+     padding: 5px 0px;
+  }
+  .footer-active{
+          border-bottom: 3px solid white;
+  }
+/*only desktop view*/
+@media only screen and (min-width: 992px){
+    .fixed-footer {
+    background: #1AA235;
+    position: fixed;
+    width: 29%;
+    z-index: 99999;
+    bottom: 0px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+     padding: 5px 0px;
+  }
+}
+
+/*only desktop view*/
+/*media query for mobile roated view*/
+@media (min-width: 599px) and (max-device-width : 768px){
+    .fixed-footer {
+      width: 100%;
+      position: fixed;
+    } 
+    .custum-container{
+        width:100%;
+        max-width:100%;
+    }
+}
+/*media query for mobile roated view*/
+/*tablet view query*/
+@media (min-width: 576px) and (max-device-width : 1024px){
+     .fixed-footer {
+      width: 100%;
+      position: fixed;
+    } 
+    .custum-container{
+        width:100%;
+         max-width:100%;
+    }
+  .center-section{
+      width:100%;
+  }
+}
+
+/*tablet view query*/
+/*mobile view css*/
+@media only screen and (max-width: 600px) {
+     .fixed-footer {
+      width:100%;
+      position:fixed;
+    }
+    
+}
+/*mobile view css*/
